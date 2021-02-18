@@ -1,0 +1,49 @@
+      <div class="jumbotron">
+        <a href=<?php echo "{$rootpath}index.php" ?> >
+          <img class="skryty" src=<?php echo "{$filespath}files/img/top_banner.png" ?> />
+        </a>
+      </div> <!-- class="jumbotron" -->
+
+    <?php $active = "" ?>
+    <div class="blog-masthead">
+      <div id="blog-navbar" class="container">
+        <nav class="blog-nav">
+        <a class=<?php if ($name_page == "index") { $active = "active"; } else { $active = ""; } echo '"blog-nav-item ' . $active .'"' ?> 
+          href=<?php echo "{$rootpath}index.php" ?> >
+           Aktuality 
+          </a>
+        <a class=<?php if ($name_page == "projekty") { $active = "active"; } else { $active = ""; } echo '"blog-nav-item ' . $active .'"' ?> 
+          href=<?php echo "{$czpath}projekty.php" ?> >
+          Projekty
+          </a>
+        <a class=<?php if ($name_page == "onas") { $active = "active"; } else { $active = ""; } echo '"blog-nav-item ' . $active .'"' ?> 
+          href=<?php echo "{$czpath}onas.php" ?> >
+           O nás
+          </a>
+        <a class=<?php if ($name_page == "sluzby") { $active = "active"; } else { $active = ""; } echo '"blog-nav-item ' . $active .'"' ?> 
+          href=<?php echo "{$czpath}sluzby.php" ?> >
+           Naše služby 
+          </a>
+        <a class=<?php if ($name_page == "podporilinas") { $active = "active"; } else { $active = ""; } echo '"blog-nav-item ' . $active .'"' ?> 
+          href=<?php echo "{$czpath}podporilinas.php" ?> >
+          Podpořili nás 
+          </a>
+        <a class=<?php if ($name_page == "odkazy") { $active = "active"; } else { $active = ""; } echo '"blog-nav-item ' . $active .'"' ?> 
+          href=<?php echo "{$czpath}odkazy.php" ?> >
+           Odkazy
+          </a>
+        <a class=<?php if ($name_page == "galerie") { $active = "active"; } else { $active = ""; } echo '"blog-nav-item ' . $active .'"' ?> 
+          href=<?php echo "{$czpath}galerie.php" ?> >
+            Fotogalerie 
+          </a>
+        <a class=<?php if ($name_page == "kontakty") { $active = "active"; } else { $active = ""; } echo '"blog-nav-item ' . $active .'"' ?> 
+          href=<?php echo "{$czpath}kontakty.php" ?> >
+            Kontakty 
+          </a>
+        <a class=<?php if ($name_page == "kestazeni") { $active = "active"; } else { $active = ""; } echo '"blog-nav-item ' . $active .'"' ?> 
+          href=<?php echo "{$czpath}kestazeni.php" ?> >
+          Ke stažení
+          </a>
+        </nav>
+      </div>
+    </div>

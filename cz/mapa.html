@@ -1,0 +1,22 @@
+<div id="mapa"></div>
+
+<script type="text/javascript">
+  var center = SMap.Coords.fromWGS84(17.1953186, 49.6518872);
+  var sidlo = SMap.Coords.fromWGS84(17.1424256, 49.6436275);
+  var m = new SMap(JAK.gel("mapa"), center, 11);
+  m.addDefaultLayer(SMap.DEF_BASE).enable();
+    m.addDefaultControls();
+
+  var layer = new SMap.Layer.Marker();
+  m.addLayer(layer);
+  layer.enable();
+  
+  var options = {};
+
+  var sidlo_card = new SMap.Card();
+  sidlo_card.getHeader().innerHTML = "Příkazy 66 783 33 Příkazy";
+  var sidlo_marker = new SMap.Marker(sidlo, "LT EkoLesServis s.r.o.", options);
+  sidlo_marker.decorate(SMap.Marker.Feature.Card, sidlo_card);
+  layer.addMarker(sidlo_marker);
+  
+</script>

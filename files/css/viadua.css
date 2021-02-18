@@ -1,0 +1,260 @@
+body {
+  color: #222;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  background-color:#fff;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 834px;
+  }
+}
+@media (min-width: 970px) {
+  .container {
+    max-width: 834px;
+  }
+}
+
+#first {
+  padding: 0px;
+  padding-top: 20px;
+}
+
+ #box {
+  box-shadow:rgba(0, 0, 0, 0.9) 5px 0 20px;
+  border-radius: 4px 4px 0px 0px;
+  }
+
+.container {
+  background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+}  
+
+.page-header {
+  margin: 20px 0;
+}
+
+h1, h2, h3, span {
+  color: #01436d;
+}
+
+h1 {
+ font-size: 20pt;
+ text-align: center;
+}
+
+h2 {
+ font-size: 16pt;
+ text-align: center;
+ text-decoration: underline;
+ margin-bottom: 20px;
+ margin-top: 20px;
+}
+
+h3 {
+ font-size: 18px;
+}
+
+h4 {
+ font-size: 14px;
+ font-weight: bold;
+}
+
+hr {
+  margin-bottom:10px;
+  margin-top:10px;
+}
+
+#aktuality > hr {
+  margin-top:30px;
+}
+
+.skryty {
+  opacity: 0;
+  position: relative;
+  left: -8%;
+  bottom: 30%;
+}
+
+
+#onas p, #aktuality p {
+ text-align: justify;
+ text-indent: 2%;
+}
+
+#aktuality img {
+  width: 100%
+}
+
+#sidlo {
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.container-padding h1, .container-padding h2, .container-padding p, .container-padding h3, .container-padding h4{
+ padding-left:20px;
+ padding-right:20px;
+ }
+
+.container-padding form{
+ padding-left:40px;
+ padding-right:20px;
+ }
+
+.smallmenu{
+    margin: 7.5px 10px;
+}
+
+#onas img {
+  width: 100%;
+  }
+
+.img80 {
+  width: 80%;
+  }
+.img100 {
+  width: 100%;
+  }
+
+#podporilinas img {
+  padding-top:10px;
+  padding-bottom:20px;
+  }
+
+#podporilinas h3 {
+  text-decoration: underline;
+  }
+
+.row {
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+#galerie img {
+  width: 100%;
+  } 
+
+  /* ---------------------------- kontakty */
+
+#kontakty span {
+  font-size: 22px;
+}
+
+#kontakty h2 {
+  font-size: 22px;
+}
+
+  #mapa {
+    height:210px; 
+    width:100%;
+  }
+
+  #map {
+    height:270px; 
+    width:100%;
+  }
+
+/* kontakty */
+dt {
+  font-weight: bold;
+  font-variant: small-caps;
+  }
+
+#sidlo .dl-horizontal dt {
+  width: 120px;
+  }
+
+#sidlo .dl-horizontal dd {
+  margin-left: 140px;
+  }
+
+.dl-horizontal dd {
+  margin-left: 30%;
+  }
+.dl-horizontal dt {
+  width: 25%;
+  }
+
+#url {display: none;}
+
+  /* ---------------------------- foto slider */
+  .bx-wrapper .bx-pager {
+    bottom: -95px;
+    margin-bottom: -110px;
+  }
+  
+  .bx-wrapper .bx-pager a {
+    border: solid #ccc 1px;
+    display: block;
+    margin: 5px 7px;
+    padding: 3px;
+    width: 105px;
+  }
+  
+  .bx-wrapper .bx-pager a:hover,
+  .bx-wrapper .bx-pager a.active {
+    border: solid #5280DD 1px;
+  }
+  
+  .bx-wrapper {
+    margin-bottom: 120px;
+  }
+  
+  .bx-wrapper .bx-caption span {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+  .bx-wrapper .bx-prev {
+    left: 0px
+  }
+
+
+
+  /* ---------------------------- jumbotron */
+  .jumbotron {
+    padding-bottom: 8px;
+    padding-top: 90px;
+  }
+
+  .container .jumbotron {
+    border-radius: 0px 0px 0px 0px;
+    background-image:url('../img/top_banner.png');
+    background-color:#FFFFFF;
+    text-align: right;
+    height: 400px;
+    margin-top: -2px;
+    margin-bottom: 0px;
+  }
+
+  /* ---------------------------- footer */
+
+  footer, footer .container {
+    background-color: #f7fbe6;
+    color: #666;
+  }
+  footer a, footer a:visited, footer a:active, footer a:focus {
+    text-align: left;
+    color: #666;
+    text-decoration: none;
+  }
+  footer a:hover {
+  color: #01436d;
+  }
+  footer {  
+    font-size: 10px;
+  }
+  footer img {
+    padding: 0px;
+  }
+  
+  .modal-footer {
+    padding: 10px 15px 10px 30px;
+  }
